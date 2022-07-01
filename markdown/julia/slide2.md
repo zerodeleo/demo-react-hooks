@@ -1,4 +1,4 @@
-## SIMULATING A REACT COMPONENT
+### SIMULATING A REACT COMPONENT
 ```javascript
 const Counter = () => {
     const [count, setCount] = useState(1);

@@ -1,4 +1,4 @@
-#### CONSTRUCTOR:
+### Class Component
 
 ```JSX
 class Counter extends React.Component {
@@ -9,7 +9,21 @@ class Counter extends React.Component {
     };
   }
 
-  // ... setters
-  // ... render
+  decrement() {
+    this.setState(prevState => (prevState <= 0 ? 0 : ({ count: prevState.count - 1 })));
+  }
+
+  increment() {
+    this.setState(prevState => ({ count: prevState.count + 1 }));
+  }
+
+  render() {
+    return (
+      <div>
+        <button onClick={e => this.decrement(e)}>-</button>
+        <button onClick={e => this.increment(e)}>+</button>
+      </div>
+    );
+  }
 }
 ```

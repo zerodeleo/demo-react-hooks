@@ -1,4 +1,4 @@
-## CREATING THE RESOLVER
+### CREATING THE RESOLVER
 ```javascript
 const resolveDispatcher = (() => {
     const useState = (initialState) => {

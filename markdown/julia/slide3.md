@@ -1,4 +1,4 @@
-## CREATING THE DISPATCHERS
+### CREATING THE DISPATCHERS
 ```javascript
 const useState = (initialState) => {
     const dispatcher = resolveDispatcher;

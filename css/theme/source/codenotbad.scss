@@ -40,16 +40,17 @@ $violet:    	#6c71c4;
 $blue:      	#268bd2;
 $cyan:      	#2aa198;
 $green:     	#859900;
-$cnbBg:			#250e2b;
-$cnbBg2:		#40194a;
+$cnbBg:				#250e2b;
+$cnbBg2:			#40194a;
 $cnbLink: 		#87349c;
 $cnbHeading: 	#e2c974;
 
 // Override theme settings (see ../template/settings.scss)
 $mainFont: Ubuntu, 'sans-serif';
-$mainColor: $base3;
+$mainColor: $base2;
 $headingFont: 'Montserrat', Impact, sans-serif;
 $headingColor: $cnbHeading;
+$liColor: $base2;
 $headingTextShadow: none;
 $backgroundColor: linear-gradient(to bottom right, $cnbBg, $cnbBg2);
 $linkColor: $cnbLink;

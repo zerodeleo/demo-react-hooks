@@ -1,23 +1,17 @@
-#### SETTERS:
+### Functional Component
+```jsx
+const Counter = () => {
+  const [count, setCounter] = useState(0);
 
-```JSX
-class Counter extends React.Component {
-    // ... constructor
-    decrement() {
-        this.setState(prevState => (
-                prevState <= 0 
-                ? 0 
-                : ({ count: prevState.count - 1 })
-            )
-        );
-    }
+  const handleDecrement = () => setCounter(count - 1);
 
-    increment() {
-        this.setState(prevState => (
-                { count: prevState.count + 1 }
-            )
-        );
-    }
-    // ... render
-}
+  const handleIncrement = () => setCounter(count + 1);
+
+  return (
+    <div>
+      <button onClick={handleDecrement}> - </button>
+      <button onClick={handleIncrement}> + </button>
+    </div>
+  );
+};
 ```

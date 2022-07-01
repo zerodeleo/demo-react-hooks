@@ -92,6 +92,12 @@ html * {
   word-wrap: break-word;
 }
 
+.reveal li {
+  font-family: serif;
+  font-size: 0.8em;
+  color: white;
+}
+
 .reveal h1 {
   font-size: var(--r-heading1-size);
 }
@@ -230,7 +236,7 @@ html * {
   display: block;
   padding: 5px;
   overflow: auto;
-  max-height: 400px;
+  max-height: 800px;
   word-wrap: normal;
 }
 

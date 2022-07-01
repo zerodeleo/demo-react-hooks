@@ -1,4 +1,4 @@
-## SUMMARY
+### SUMMARY
 ```javascript
 const basicHookReducer = (newState, action) => {
     return typeof action === 'function' 
@@ -60,6 +60,4 @@ app = render(Counter);
 app.click();
 app = render(Counter);
 ```
-
-##### SEE FULL APPLICATION ON<br>
 https://github.com/zerodeleo/hooks-under-the-hoods

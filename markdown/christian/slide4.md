@@ -1,17 +1,4 @@
-#### CLASS COMPONENT - RENDER:
+<!-- ## WHY DO THEY EXIST? -->
 
-```JSX
-class Counter extends React.Component {
-    // ... constructor
-    // ... setters
-    
-    render() {
-        return (
-            <div>
-                <button onClick={e => this.decrement(e)}>-</button>
-                <button onClick={e => this.increment(e)}>-</button>
-            </div>
-        );
-    }
-}
-```
+# Important differance 
+## Hooks and class-based state management
