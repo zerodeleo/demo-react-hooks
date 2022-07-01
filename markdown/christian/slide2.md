@@ -1,4 +1,4 @@
-#### CLASS COMPONENT - CONSTRUCTOR
+#### CONSTRUCTOR:
 
 ```JSX
 class Counter extends React.Component {

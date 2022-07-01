@@ -1,4 +1,4 @@
-#### CLASS COMPONENT - ALL TOGETHER:
+#### ALL TOGETHER:
 
 ```JSX
 class Counter extends React.Component {
